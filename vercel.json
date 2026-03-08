@@ -1,8 +1,4 @@
 {
-  "build": {
-    "env": {
-      "HEXO_OUTPUT_DIR": "public"
-    }
-  },
+  "buildCommand": "npx hexo generate",
   "outputDirectory": "public"
 }
