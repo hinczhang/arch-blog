@@ -1,0 +1,34 @@
+# 导航栏菜单
+menu:
+  首页: / || fas fa-home
+  时间轴: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+
+# 个人信息卡片 (侧边栏)
+aside:
+  card_author:
+    enable: true
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/hinczhang
+
+# 社交图标
+social:
+  fab fa-github: https://github.com/hinczhang || GitHub
+
+# 搜索功能
+local_search:
+  enable: true
+  preload: true
+  top_n_per_article: 1
+
+# 文章页优化
+post_meta:
+  item_condition:
+    date: true
+    updated: true
+    category: true
+    label: true
