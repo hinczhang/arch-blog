@@ -1,0 +1,8 @@
+{
+  "build": {
+    "env": {
+      "HEXO_OUTPUT_DIR": "public"
+    }
+  },
+  "outputDirectory": "public"
+}
