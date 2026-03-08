@@ -10,7 +10,7 @@ url: https://arch-blog.vercel.app
 root: /
 permalink: :year/:month/:day/:title/
 
-theme: butterfly
+# theme: butterfly  # temporarily disabled for Vercel build test
 
 deploy:
   type: git
