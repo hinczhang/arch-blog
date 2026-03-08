@@ -1,0 +1,18 @@
+# Hexo Configuration
+title: RISC-V TPU 架构师笔记
+subtitle: 从硅晶到指令集的 AI 芯片探索之路
+description: 记录 RISC-V TPU 芯片架构设计与开发心得
+author: hinczhang
+language: zh-CN
+timezone: UTC
+
+url: https://arch-blog.vercel.app
+root: /
+permalink: :year/:month/:day/:title/
+
+theme: butterfly
+
+deploy:
+  type: git
+  repo: git@github.com:hinczhang/arch-blog.git
+  branch: main

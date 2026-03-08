@@ -1,0 +1,15 @@
+{
+  "name": "arch-blog",
+  "version": "1.0.0",
+  "description": "RISC-V TPU 芯片架构师博客",
+  "scripts": {
+    "dev": "hexo server",
+    "build": "hexo generate",
+    "deploy": "hexo deploy"
+  },
+  "dependencies": {
+    "hexo": "^7.0.0",
+    "hexo-theme-butterfly": "^4.0.0",
+    "hexo-deployer-git": "^4.0.0"
+  }
+}
