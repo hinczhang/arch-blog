@@ -10,7 +10,8 @@ url: https://arch-blog.vercel.app
 root: /
 permalink: :year/:month/:day/:title/
 
-theme: butterfly
+theme: landscape
+public_dir: public
 
 deploy:
   type: git
